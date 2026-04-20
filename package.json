@@ -1,0 +1,10 @@
+{
+  "name": "booking-system-api",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.7"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/send-email.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "env": {
+    "BREVO_EMAIL": "@brevo_email",
+    "BREVO_API_KEY": "@brevo_api_key"
+  }
+}
